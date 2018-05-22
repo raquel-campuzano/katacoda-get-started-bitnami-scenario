@@ -1,26 +1,74 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "pathwayTitle": "Pathway Title",
+  "title": "First steps with a Bitnami image",
+  "description": "In this course you will learn the most common actions you will need to perform when you have launched a Bitnami image for the first time.",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "10-15 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - How to connect to your instance through SSH",
+        "text": "step1.md",
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh",
+        "courseData": "run-command-in-background.sh",
+        "code": "run-command-in-terminal.sh"
+      },
+      {
+        "title": "Step 2 - Find application credentials",
+        "text": "step2.md"
+      }
+      {
+        "title": "Step 3 - Start and stop the servers",
+        "text": "step3.md"
+      }
+      {
+        "title": "Step 4 - Explore the directory structure",
+        "text": "step5.md"
+      }
+      {
+        "title": "Step 5 - Remove the Bitnami badge",
+        "text": "step6.md"
+      }
+      {
+        "title": "Step 6- Connect to the database",
+        "text": "step7.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "courseData": "courseBase.sh",
+      "credits": "",
+      "code": "changecd.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "docker-compose.yml",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "config.yml",
+          "target": "~/"
+        }
+      ]
     }
   },
+  "files": [
+    "app.js"
+  ],
   "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "docker"
   }
 }
