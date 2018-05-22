@@ -1,7 +1,9 @@
-This is your first step.
+In the first step we will show you how to connect to the server through SSH. Since Linux come bundled with an SSH client, you only need to perform two steps:
 
-## Task
+1. Set the permissions for your private key file (*.pem) to 600 using the following command:
 
-This is an _example_ of creating a scenario and running a **command**
+`chmod 600 KEYFILE`{{execute}}
 
-`echo 'Hello World'`{{execute}}
+2. Connect to the server:
+
+`ssh -i KEYFILE bitnami@SERVER-IP`{{execute}}
