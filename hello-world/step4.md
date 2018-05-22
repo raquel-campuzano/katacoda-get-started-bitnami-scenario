@@ -73,4 +73,3 @@ All the files related to the application are stored under the `apps/wordpress` d
 * WordPress configuration files:
 
 `ls apps/wordpress/conf`{{execute}}
-~
