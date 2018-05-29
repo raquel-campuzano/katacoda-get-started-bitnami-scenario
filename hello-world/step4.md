@@ -66,13 +66,15 @@ All the files related to the application are stored under the `apps/wordpress` d
 
   `ls apps/wordpress/htdocs`{{execute}}
 
-  Let's try to check one of the files included in the *htdocs* section. In this case, we want to open the *wp-config.php* file so we need to use a text editor such as [`cat`](https://www.linux.com/blog/using-cat-text-editor):
+  Let's try to check one of the files included in the *htdocs* section. In this case, we want to open the *wp-config.php* file so we need to use a text editor. You can use [`nano`](https://www.nano-editor.org/):
   
-  `cat apps/wordpress/htdocs/wp-config.php`{{execute}}
+  `nano apps/wordpress/htdocs/wp-config.php`{{execute}}
 
 Doesn't work? It is because to check some of these files you need to have the superuser privileges. To do so, you only need to add `sudo` at the beginning of the command you want to execute. Let's try again:
 
-`sudo cat apps/wordpress/htdocs/wp-config.php`{{execute}}
+`sudo nano apps/wordpress/htdocs/wp-config.php`{{execute}}
+
+Close the file as you have learned in the previous step. 
 
 * WordPress configuration files:
 
