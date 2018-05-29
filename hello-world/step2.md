@@ -1,4 +1,6 @@
-In the third step we are going to see how to stop, start, or restart the server and/or the services using the Bitnami control script. The script is located at `/opt/bitnami/ctlscript.sh`. Let's try the following options:
+In the second step we are going to see how to stop, start, or restart the server and/or the services using the Bitnami control script. The script is located at `/opt/bitnami/ctlscript.sh`. 
+
+Let's try the following options:
 
 1. Start all services:
 
