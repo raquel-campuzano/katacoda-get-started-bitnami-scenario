@@ -1,4 +1,4 @@
-In the fourth step you will learn how is structured the files directory in any Bitnami application.
+In the third step you will learn how is structured the files directory in any Bitnami application.
 
 ### Root directory
 
