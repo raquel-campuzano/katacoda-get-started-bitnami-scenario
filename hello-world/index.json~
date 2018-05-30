@@ -8,7 +8,9 @@
     "steps": [
       {
         "title": "Step 1 - Find application credentials",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "run-command-in-background.sh",
+        "code": "run-command-in-terminal.sh"
       },
       {
         "title": "Step 2 - Start and stop the servers",
