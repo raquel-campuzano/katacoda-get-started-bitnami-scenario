@@ -9,8 +9,6 @@
       {
         "title": "Step 1 - Find application credentials",
         "text": "step1.md",
-        "answer": "step1-answer.md",
-        "verify": "step1-verify.sh",
         "courseData": "run-command-in-background.sh",
         "code": "run-command-in-terminal.sh"
       },
