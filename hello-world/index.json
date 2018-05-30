@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - How to connect to your instance through SSH",
+        "title": "Step 1 - Find application credentials",
         "text": "step1.md",
         "answer": "step1-answer.md",
         "verify": "step1-verify.sh",
@@ -15,11 +15,11 @@
         "code": "run-command-in-terminal.sh"
       },
       {
-        "title": "Step 2 - Find application credentials",
+        "title": "Step 2 - Start and stop the servers",
         "text": "step2.md"
       }
       {
-        "title": "Step 3 - Start and stop the servers",
+        "title": "Step 3 - How to edit a Bitnami file",
         "text": "step3.md"
       }
       {
@@ -32,7 +32,7 @@
       }
       {
         "title": "Step 6- Connect to the database",
-        "text": "step7.md"
+        "text": "step6.md"
       }
     ],
     "intro": {
@@ -68,7 +68,8 @@
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
-  "backend": {
-    "imageid": "docker"
+   "backend": {
+     "environmentsprotocol": "http",
+     "imageid": "bitnami-wordpress"
   }
 }
