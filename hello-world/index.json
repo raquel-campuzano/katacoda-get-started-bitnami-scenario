@@ -17,19 +17,19 @@
       {
         "title": "Step 2 - Start and stop the servers",
         "text": "step2.md"
-      }
+      },
       {
         "title": "Step 3 - How to edit a Bitnami file",
         "text": "step3.md"
-      }
+      },
       {
         "title": "Step 4 - Explore the directory structure",
         "text": "step5.md"
-      }
+      },
       {
         "title": "Step 5 - Remove the Bitnami badge",
         "text": "step6.md"
-      }
+      },
       {
         "title": "Step 6- Connect to the database",
         "text": "step6.md"
