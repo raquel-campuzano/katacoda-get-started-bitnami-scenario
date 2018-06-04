@@ -4,7 +4,7 @@ This step is very important since **the password you will obtain in this step, a
 
 1. To find the application credentials run the following command:
 
-`cat ./bitnami_credentials`{{execute}}
+   `cat ./bitnami_credentials`{{execute}}
 
 2. Click the "Access application" tab located beside the terminal tab. It redirects you to the WordPress blog.
 

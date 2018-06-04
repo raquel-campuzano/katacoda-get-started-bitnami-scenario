@@ -6,11 +6,11 @@ The installation process creates several sub-directories under the `/opt/bitnami
 
 1. To change the directory:
 
-`cd /opt/bitnami`{{execute}}
+   `cd /opt/bitnami`{{execute}}
 
 2. To list main subdirectories:
 
-`ls`{{execute}}
+   `ls`{{execute}}
 
 Now, let's see what it is in each subdirectory:
 
@@ -22,11 +22,11 @@ Now, let's see what it is in each subdirectory:
 
 * Apache log files:
 
-`ls apache2/logs/`{{execute}}
+  `ls apache2/logs/`{{execute}}
 
 * Apache server configuration file:
 
-`ls apps/wordpress/conf/`{{execute}}
+  `ls apps/wordpress/conf/`{{execute}}
 
 #### MySQL database subdirectories
 
@@ -34,7 +34,7 @@ Now, let's see what it is in each subdirectory:
 
 * MySQL configuration files:
 
-`ls mysql/bitnami/`{{execute}}
+  `ls mysql/bitnami/`{{execute}}
 
 ### Languages
 
@@ -67,7 +67,7 @@ All the files related to the application are stored under the `apps/wordpress` d
   `ls apps/wordpress/htdocs`{{execute}}
 
   Let's try to check one of the files included in the *htdocs* section. In this case, we want to open the *wp-config.php* file so we need to use a text editor. You can use [`nano`](https://www.nano-editor.org/):
-  
+
   `nano apps/wordpress/htdocs/wp-config.php`{{execute}}
 
 Doesn't work? It is because to check some of these files you need to have the superuser privileges. To do so, you only need to add `sudo` at the beginning of the command you want to execute. Let's try again:
@@ -78,4 +78,4 @@ Close the file as you have learned in the previous step.
 
 * WordPress configuration files:
 
-`ls apps/wordpress/conf`{{execute}}
+  `ls apps/wordpress/conf`{{execute}}
