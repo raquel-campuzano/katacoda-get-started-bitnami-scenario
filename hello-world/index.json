@@ -30,6 +30,10 @@
         "title": "Step 6- Connect to the database",
         "text": "step6.md"
       }
+      {
+        "title": "Step 7- Run the Bitnami Support Tool",
+        "text": "step7.md"
+      }
     ],
     "intro": {
       "text": "intro.md"
