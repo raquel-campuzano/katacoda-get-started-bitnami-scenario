@@ -10,4 +10,4 @@ This step is very important since **the password you will obtain in this step, a
 
 Scroll down until you see the "Log in" link. Click on it and **access the WordPress dashboard using the credentials you have obtained in the previous step.**
 
-![Log in to the application](/images/log-in-wp.png)
+![Log in to the application](hello-world/images/log-in-wp.png)
