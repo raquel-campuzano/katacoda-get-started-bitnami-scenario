@@ -20,17 +20,18 @@ The `bnsupport` CLI gathers prominent information for the Bitnami Support Team f
    * Updated WordPress to 4.8.3
    ~~~
 
-In case that your stack doesn't include the `bnsupport` tool, [follow these instructions to download it(https://docs.bitnami.com/google/components/bnsupport/).
+In case that your stack doesn't include the `bnsupport` tool, [follow these instructions to download it](https://docs.bitnami.com/google/components/bnsupport/).
 
 2. Run the Bitnami Support Tool:
 
    `sudo /opt/bitnami/bnsupport-tool`{{execute}}
 
-3. Type "n" when the tool asks you for updates (you are working with the latest version of WordPress). 
-4. Type "n" when you prompted to run Health Tools so it display a summary of the information. Press `Enter` to continue as many times as you are prompted to do it.
+3. Type "Y" when the tool asks you for updates (you are working with the latest version of WordPress). 
+4. Enter the `/opt/bitnami` directory as installation directory.
+5. Type "n" when you prompted to run Health Tools so it display a summary of the information. Press `Enter` to continue as many times as you are prompted to do it.
 
    > TIP: For self-diagnosis you can accept to run Health Check tools or the SMTP Test Recipent, for example, and see how the `bnsupport` tool works to help you debug issues on your installation. 
 
-5. Type "y" to add the required information to the archive. This, creates a code that you must paste in your Bitnami Support ticket.
+6. Type "y" to add the required information to the archive. This, creates a code that you must paste in your Bitnami Support ticket.
 
 That's all, now you know how to use the `bnsupport` tool for being helped by the Bitnami Support Team!
