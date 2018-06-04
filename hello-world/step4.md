@@ -18,64 +18,64 @@ Now, let's see what it is in each subdirectory:
 
 #### Apache subdirectories
 
-`ls apache2`{{execute}}
+`ls /opt/bitnami/apache2`{{execute}}
 
 * Apache log files:
 
-  `ls apache2/logs/`{{execute}}
+  `ls /opt/bitnami/apache2/logs/`{{execute}}
 
 * Apache server configuration file:
 
-  `ls apps/wordpress/conf/`{{execute}}
+  `ls /opt/bitnami/apps/wordpress/conf/`{{execute}}
 
 #### MySQL database subdirectories
 
-`ls mysql`{{execute}}
+`ls /opt/bitnami/mysql`{{execute}}
 
 * MySQL configuration files:
 
-  `ls mysql/bitnami/`{{execute}}
+  `ls /opt/bitnami/mysql/bitnami/`{{execute}}
 
 ### Languages
 
 WordPress is using PHP language, so all the related files you can find under the `php` directory. List it to see its content:
 
-`ls php/`{{execute}}
+`ls /opt/bitnami/php/`{{execute}}
 
 ### Common libraries
 
 In this folder you can find the common libraries that are being used by WordPress. To see them:
 
-`ls common/lib`{{execute}}
+`ls /opt/bitnami/common/lib`{{execute}}
 
 ### Licenses
 
 This folder includes a list of the licenses of the components included in the stack. List the directory to see them:
 
-`ls licenses/`{{execute}}
+`ls /opt/bitnami/licenses/`{{execute}}
 
 ### Application files
 
 All the files related to the application are stored under the `apps/wordpress` directory:
 
-`ls apps/wordpress/`{{execute}}
+`ls /opt/bitnami/apps/wordpress/`{{execute}}
 
 * WordPress files:
 
   In this directory you can find the content of your WordPress blog, links, comments, login information, configuration, etc.
 
-  `ls apps/wordpress/htdocs`{{execute}}
+  `ls /opt/bitnami/apps/wordpress/htdocs`{{execute}}
 
   Let's try to check one of the files included in the *htdocs* section. In this case, we want to open the *wp-config.php* file so we need to use a text editor. You can use [`nano`](https://www.nano-editor.org/):
 
-  `nano apps/wordpress/htdocs/wp-config.php`{{execute}}
+  `nano /opt/bitnami/apps/wordpress/htdocs/wp-config.php`{{execute}}
 
 Doesn't work? It is because to check some of these files you need to have the superuser privileges. To do so, you only need to add `sudo` at the beginning of the command you want to execute. Let's try again:
 
-`sudo nano apps/wordpress/htdocs/wp-config.php`{{execute}}
+`sudo nano /opt/bitnami/apps/wordpress/htdocs/wp-config.php`{{execute}}
 
-Close the file as you have learned in the previous step. 
+Close the file as you have learned in the previous step.
 
 * WordPress configuration files:
 
-  `ls apps/wordpress/conf`{{execute}}
+`ls /opt/bitnami/apps/wordpress/conf`{{execute}}
